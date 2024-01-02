@@ -1,0 +1,23 @@
+.testimonials-list{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    text-align: center;
+}
+
+.testimonials-list-item {
+    flex: 1;
+    padding: 16px;
+}
+
+.testimonials-thumbnail{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.testimonials-username {
+    font-weight: 500;
+    font-size: 0.60em;
+}
